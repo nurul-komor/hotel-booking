@@ -1,1 +1,1 @@
-{ "rewrites": [{ "source": "/frontend(.*)", "destination": "frontend/" }] }
+{ "rewrites": [{ "source": "/frontend(.*)", "destination": "/frontend/" }] }
