@@ -127,8 +127,8 @@ const rightLinks = [
 ];
 export default function AdminBar() {
   return (
-    <>
-      <div className="bg-[#333333] fixed w-full z-10 top-0 px-5">
+    <div className="h-9">
+      <div className="bg-[#333333] fixed w-full z-10 top-0 px-5 ">
         <div className="flex items-center justify-between flex-wrap py-1  ">
           {/* Left Side */}
           <div className="flex">
@@ -189,6 +189,6 @@ export default function AdminBar() {
           </Dropdown>
         </div>
       </div>
-    </>
+    </div>
   );
 }

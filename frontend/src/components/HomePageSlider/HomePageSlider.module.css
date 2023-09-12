@@ -1,39 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-:root {
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-  }
-}
-
 /* body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 } */
-@layer base {
-  body {
-    font-family: "Poppins", sans-serif;
-  }
-  p {
-  }
-  h1 {
-    font-family: "Jost", sans-serif;
-  }
-  .font-poppins {
-    font-family: "Poppins", sans-serif;
-  }
-  .font-jost {
-    font-family: "Jost", sans-serif;
-  }
-  .bg-primary {
-    background-color: #644222;
-  }
+
+[class^="number-slide"],
+[class*=" number-slide"] {
+  background: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+  height: 300px;
+  max-height: 100vh;
 }
 
-.numberSlide1 {
+.number-slide1 {
   background: rgb(64, 175, 255);
   background: linear-gradient(
     128deg,
@@ -42,7 +27,7 @@
   );
 }
 
-.numberSlide2 {
+.number-slide2 {
   background: rgb(255, 75, 64);
   background: linear-gradient(
     128deg,
@@ -51,7 +36,7 @@
   );
 }
 
-.numberSlide3 {
+.number-slide3 {
   background: rgb(182, 255, 64);
   background: linear-gradient(
     128deg,
