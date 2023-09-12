@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Button, Dropdown } from "antd";
+import { Dropdown } from "antd";
 const appearance = [
   {
     key: "1",
