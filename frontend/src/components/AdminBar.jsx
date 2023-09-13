@@ -183,7 +183,7 @@ export default function AdminBar() {
             arrow
           >
             <p className="p-1 text-white text-xs cursor-pointer flex items-center">
-              Add new
+              Super Admin
               <ion-icon name="chevron-down-outline" className="px-2"></ion-icon>
             </p>
           </Dropdown>

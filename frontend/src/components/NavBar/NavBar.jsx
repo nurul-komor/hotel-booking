@@ -159,7 +159,45 @@ export default function NavBar() {
                 </a>
               </p>
             </div>
-            <div>Mon - Fri: 9:00 - 19:00/ Closed on Weekends</div>
+            <div className="space-x-5">
+              <select name="" id="" className="bg-transparent outline-none">
+                <option value="" selected className="text-black px-2">
+                  {/* <Image
+                    src="https://www.nicepng.com/png/detail/6-63506_usa-png-clipart-american-flag-icon-png.png"
+                    height={5}
+                    width={5}
+                  /> */}
+                  English
+                </option>
+                <option value="" className="text-black px-2">
+                  BD
+                </option>
+              </select>
+              <select name="" id="" className="bg-transparent outline-none">
+                <option value="" selected className="text-black px-2">
+                  USD
+                </option>
+                <option value="" className="text-black px-2">
+                  BDT
+                </option>
+              </select>
+              <Link href="#" className="space-x-2">
+                <i class="fas fa-sign-in-alt"></i>
+                <span className="text-sm">Login</span>
+              </Link>
+              <Link href="#">
+                <i class="fab fa-facebook-f"></i>
+              </Link>
+              <Link href="#">
+                <i class="fab fa-instagram"></i>
+              </Link>
+              <Link href="#">
+                <i class="fab fa-twitter"></i>
+              </Link>
+              <Link href="#">
+                <i class="fab fa-youtube"></i>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

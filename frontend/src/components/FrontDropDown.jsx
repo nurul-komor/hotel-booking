@@ -10,10 +10,10 @@ export default function FrontDropDownItem({ menuItems }) {
       {menuItems &&
         menuItems.map((item, index) => {
           return (
-            <>
+            <span key={index}>
               <li className="">{item.label}</li>
               <li className="w-full h-[0.1px] bg-gray-300"></li>
-            </>
+            </span>
           );
         })}
     </ul>
