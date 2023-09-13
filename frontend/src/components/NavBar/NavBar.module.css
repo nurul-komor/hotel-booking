@@ -1,0 +1,14 @@
+.customDropdown .dropdownItems {
+  visibility: hidden;
+  transition: 0.3s;
+  top: 45px;
+}
+.customDropdown:hover .dropdownItems {
+  visibility: visible;
+  opacity: 1;
+  top: 32px;
+}
+
+.customDropdown a:hover {
+  @apply hover:text-primary;
+}
