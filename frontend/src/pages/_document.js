@@ -20,7 +20,7 @@ export default function Document() {
         />
       </Head>
 
-      <body className="bg-blue-400">
+      <body className="bg-red-400">
         <Main />
         <NextScript />
         <script
